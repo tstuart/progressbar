@@ -1,10 +1,15 @@
 
-var ProgressBar = function() {
+// added ability to set start, end, and
+// step of progress bar.  I did not add
+// steps to ensure that start was less than
+// end and step was >= 1.
+var ProgressBar = function(start, end, step) {
     this.onStartCallback = null;
     this.onProgressCallback = null;
     this.onEndCallback = null;
-    this._start = 1;
-    this._end = 100;
+    this._start = start;
+    this._end = end;
+    this._step = step;
 };
 
 ProgressBar.prototype.onStart = function(callback) {
@@ -26,7 +31,7 @@ ProgressBar.prototype.start = function() {
 
     this.onStartCallback();
 
-    for (i = this._start; i <= this._end; i++) {
+    for (i = this._start; i <= this._end; i += this._step) {
         if ( ((i % 10 ) ===0) ) {
             this.onProgressCallback(i);
         }
@@ -35,7 +40,7 @@ ProgressBar.prototype.start = function() {
     this.onEndCallback();
 };
 
-var progress = new ProgressBar();
+var progress = new ProgressBar(1, 1000, 1);
 progress.onStart(function() {
     console.log('Progress Started');
 });
