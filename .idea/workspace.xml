@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83be9186-413d-486b-9a90-0ae62d1288d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progress.js" afterPath="$PROJECT_DIR$/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/progressEmit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="progressbar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,17 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="progress.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="progress.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progress.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6002805">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="progressEmit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/progressEmit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06311361">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +60,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/progress.js" />
+        <option value="$PROJECT_DIR$/progressEmit.js" />
       </list>
     </option>
   </component>
@@ -110,6 +129,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,8 +177,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/progress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6002805">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progressEmit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06311361">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
